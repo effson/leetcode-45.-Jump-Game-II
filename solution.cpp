@@ -6,7 +6,7 @@ public:
            return 0;
         if(nums[0]>=size)
            return 1;//Consider extreme special cases.
-        int index=0;//start
+        int index=0;//start.Mark the start positon of elements whose value is count+1 in the array
         int maxindex=0;//end.Recorded the farthest distance that can be reached by taking one more step. 
         int count=1;//count 
         vector<int> vec;//vec[i] represents the minimum number of steps required to jump to the i-th position.
